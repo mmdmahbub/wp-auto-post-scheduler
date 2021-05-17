@@ -1,0 +1,335 @@
+/**
+*	TABLE OF CONTENTS 
+*	STYLING THE BACKEND SETTINS PAGE OF WOO PRODUCT EXCEL IMPORTER EXPORTER
+*	Unique identifier: wpeiePro
+*
+*	Main Container - line 14
+*	Header Elements - line 23
+*	Footer Elements - line 29
+*	Ajaxify - line 39
+*	Container Elements - line 59
+*	Instructions Elements - line 88
+*	MainResponsesContainer - line 112
+*	Excel Upload Elements - line 153
+*	Form Elements - line 187
+*	Grid - Import Page - line 187
+*	Rest Elements - line 247
+*	Responsive - line 273
+*
+**/
+
+/* === Main Container === */
+
+.wpeiePro{
+		overflow:hidden;
+}
+
+/* === Header Elements === */
+
+.wpeieProHeader{
+	width:100%;
+}
+
+/* === Footer Elements === */
+.wpeieProLogo{
+	float:right;
+}
+.wpeieProLogo img{
+	max-width:150px;
+}
+
+
+/* === Ajaxify === */
+.wpeiePro.loading > * {
+    opacity:0.2;
+}
+
+.wpeiePro.loading:before {
+    position:fixed;
+    content: "Loading...";
+    font-size:2em;
+    padding: 22px;
+    background: #000;
+    background: url(../images/loading.gif) no-repeat center center;
+    color: #777;
+    width: 50%;
+    height:50%;
+    margin-left:15%;
+    box-sizing: border-box;
+    text-align:center;
+}
+
+/* === Container Elements === */
+
+.wpeiePro,.wpeiePro p{
+		font-size:14px;
+}
+
+.wpeiePro h2{
+		font-size:16px;
+}
+
+.wpeiePro iframe{
+	width:100%;
+	height:500px;
+}
+
+.wpeiePro h3{
+		font-size:15px;
+}
+.wpeiePro h4{
+		font-size:15px;
+}
+
+.wpeiePro .center{
+	text-align:center;
+}
+
+
+
+
+/* === Instructions Elements  === */
+
+.wpeiePro .imageinfo,
+.wpeiePro .productInfo,
+.wpeiePro .updateinfo{
+	display:none;
+}
+.wpeiePro .imageHandling,
+.wpeiePro .productHandling.
+.updateHandling{
+	padding:10px;
+	margin-bottom:10px;
+}
+
+.wpeiePro table{
+		text-align:center;
+}
+.wpeiePro th{
+		background:#777;
+		color:#fff;
+		padding:5px;
+}
+
+
+.wpeiePro .exportTableWrapper{
+	overflow-x:scroll;
+}
+
+
+/* ============ Responses  =============== */
+
+.wpeiePro .msg,.wpeiePro .response{
+		background:#fff;
+		padding:10px;
+		margin:5px;
+		border:1px solid #777;
+		display:none;
+		position:absolute;
+		left:30%;
+		top:5%;
+		width:60%;
+}
+.wpeiePro .success{
+		background:lightGreen;
+		border:1px solid green;
+		color:#fff;
+		padding:5px;
+}
+.wpeiePro .error{
+		background:#FFCCCB;
+		border:1px solid red;
+		padding:5px;
+}
+.wpeiePro .warning{
+		background:#d9534f;
+		color:#fff;
+		padding:5px;
+}
+
+.wpeiePro .importMessageSussess{
+		background:lightGreen;
+		padding:5px;
+		border:1px solid green;
+		color:#fff;
+}
+.wpeiePro .importMessageSussess a, .wpeiePro .success a{
+		color:#000;
+}
+
+
+/* ======= Excel Upload Elements ======= */
+
+
+.wpeiePro .uploader {
+	position:relative;
+	width:99%; 
+	height:300px;
+	background:#f3f3f3; 
+	border:1px dashed #e8e8e8;
+	background-size:cover;
+	margin:0 auto;
+	text-align:center;
+	background:url('../images/default.png') no-repeat left center;
+}
+.wpeieProFile{		
+	width:100%;
+	position:absolute;	
+	height:300px;
+	top:0;
+	left:0;
+	z-index:2;
+	opacity:0;
+	cursor:pointer;
+}
+.wpeiePro .uploader .userSelected{
+	max-width:90%;
+	width:90%;
+	z-index:1;
+	border:none;
+	display:none;
+}
+
+
+
+/* ============ Form Elements ============ */
+
+.woo-form-wrapper, .woo-form-wrapper form{
+	overflow:hidden;
+	min-height:400px;
+	width:100%;
+}
+.wpeiePro input[type=text],.wpeiePro input[type=number], .wpeiePro textarea{
+		border:none;
+		border-bottom:1px solid #0073aa;
+		transition:all .3s ease-in-out;
+		cursor:text;
+}
+.wpeiePro input[type=text]:hover,.wpeiePro input[type=number]:hover, .wpeiePro textarea:hover{
+		background:#ffffcc;
+}
+
+
+
+/* =============== Grid - Import Page  ================== */
+
+.wpeiePro  .column1,
+.wpeiePro  .columns2,
+.wpeiePro  .columns3,
+.wpeiePro  .columns4,
+.wpeiePro  .columns5,
+.wpeiePro  .columns6{
+	float:left;
+	box-sizing:border-box;
+	padding:10px;
+	margin:0 0.5%;
+}
+
+.wpeiePro .columns2, .wpeiePro .columns3 h2{
+	color:#0073aa;
+}
+
+.wpeiePro  .column1{
+	width:100%;
+	float:none;
+}
+.wpeiePro  .columns2{
+	width:49% ;
+}
+.wpeiePro  .columns3{
+	width:32.3% ;
+}
+.wpeiePro  .columns4{
+	width:24%;
+}
+.wpeiePro  .columns5{
+	width:19%;
+}
+.wpeiePro  .columns6{
+	width:15.6%;
+}
+
+/* =============== Rest Elements ================== */
+
+.wpeiePro .startPosts,.wpeiePro .totalPosts{
+	display:none;
+}
+.wpeiePro #myProgress {
+  width: 100%;
+  background-color: #ddd;
+  /*height:0;*/
+}
+
+.wpeiePro #myBar {
+  width: 1%;
+  height: 30px;
+  background-color: #4CAF50;
+}
+
+.wpeiePro .nav-tab-wrapper a[href*="instructions"]{
+		background:green;
+		color:#fff;
+		border:1px solid green;	
+}
+
+.wpeiePro .thisNum{
+	display:none;
+}
+
+
+.wpeiePro  .tableexport-caption {
+    caption-side: top !important;
+	text-align:left;
+}
+
+.wpeiePro #productupdateBy{
+	display:none;
+}
+
+.wpeiePro .update_onlyField i{
+	color:red;
+}
+
+/* =============== Responsive ================== */
+
+@media(max-width:992px){
+	
+	.wpeiePro  .columns2,.wpeiePro  .columns3,.wpeiePro  .columns4,.wpeiePro  .columns5,.wpeiePro  .columns6{
+		float:none;
+		width:99%;
+	}	
+	
+	.wpeiePro  .left_wrap, .wpeiePro .right_wrap{
+		float:none;
+		width:100%;
+		border-right:none;
+	}
+
+	.wpeiePro .border{
+		border-right:none;
+	}		
+		
+}
+.card.wap_upload_filed {
+	height: 0px !important;
+	opacity: 0 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.card.wap_upload_filed.show {
+	height: auto !important;
+	opacity: 1 !important;
+	transition: 0.3s all;
+	padding: .7em 2em 1em !important;
+	margin-top: 10px !important;
+}
+.wpeiePro .notice {
+	padding: 10px 20px;
+	margin: 14px 5px;
+}
+.card.wap_upload_filed.show input {
+	width: 100%;
+	padding: 5px 10px;
+	border: 1px solid #ddd !important;
+	margin: 10px 0px;
+}

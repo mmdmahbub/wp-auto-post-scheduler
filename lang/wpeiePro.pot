@@ -1,0 +1,570 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpeiePro\n"
+"POT-Creation-Date: 2019-01-30 09:34+0200\n"
+"PO-Revision-Date: 2019-01-30 09:35+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_t\n"
+"X-Poedit-SearchPath-0: wpeiePro.php\n"
+"X-Poedit-SearchPath-1: wpeiePro_categories.php\n"
+"X-Poedit-SearchPath-2: wpeiePro_products.php\n"
+
+#: wpeiePro.php:38
+msgid ""
+"This plugin requires <a href=\"http://wordpress.org/extend/plugins/"
+"woocommerce/\">WooCommerce</a> plugin to be installed and active!"
+msgstr ""
+
+#: wpeiePro.php:87
+msgid "Import-Export"
+msgstr ""
+
+#: wpeiePro.php:87 wpeiePro.php:88
+msgid "Product Import / Export"
+msgstr ""
+
+#: wpeiePro.php:88 wpeiePro.php:89
+msgid "Product Import-Export"
+msgstr ""
+
+#: wpeiePro.php:98
+msgid "Settings"
+msgstr ""
+
+#: wpeiePro.php:116
+msgid "Import/Update Products"
+msgstr ""
+
+#: wpeiePro.php:117
+msgid "Export Products"
+msgstr ""
+
+#: wpeiePro.php:118
+msgid "Delete Products"
+msgstr ""
+
+#: wpeiePro.php:119
+msgid "Import Categories"
+msgstr ""
+
+#: wpeiePro.php:120
+msgid "Delete Categories"
+msgstr ""
+
+#: wpeiePro.php:121
+msgid "Instructions"
+msgstr ""
+
+#: wpeiePro.php:171
+msgid "By webdeveloping.gr"
+msgstr ""
+
+#: wpeiePro_categories.php:9
+msgid "IMPORT CATEGORIES"
+msgstr ""
+
+#: wpeiePro_categories.php:13
+msgid "Sample File for importing Terms. Upload it using the form below."
+msgstr ""
+
+#: wpeiePro_categories.php:15 wpeiePro_categories.php:43
+#: wpeiePro_products.php:24 wpeiePro_products.php:133
+msgid "SAMPLE EXCEL FILE"
+msgstr ""
+
+#: wpeiePro_categories.php:29
+msgid "Import Terms"
+msgstr ""
+
+#: wpeiePro_categories.php:38
+msgid "DELETE CATEGORIES"
+msgstr ""
+
+#: wpeiePro_categories.php:43
+msgid "Sample File for deleting Terms. Upload it using the form below."
+msgstr ""
+
+#: wpeiePro_categories.php:60 wpeiePro_products.php:151
+msgid "Delete from Excel"
+msgstr ""
+
+#: wpeiePro_categories.php:99 wpeiePro_categories.php:105
+#: wpeiePro_categories.php:117 wpeiePro_categories.php:145
+msgid "imported successfully"
+msgstr ""
+
+#: wpeiePro_categories.php:100 wpeiePro_categories.php:119
+#: wpeiePro_categories.php:147
+msgid "exists"
+msgstr ""
+
+#: wpeiePro_categories.php:188 wpeiePro_products.php:665
+#: wpeiePro_products.php:673
+msgid "deleted successfully"
+msgstr ""
+
+#: wpeiePro_categories.php:189 wpeiePro_products.php:659
+msgid "doesnt exist, you need to import it first"
+msgstr ""
+
+#: wpeiePro_products.php:18
+msgid "IMPORT / UPDATE PRODUCTS"
+msgstr ""
+
+#: wpeiePro_products.php:22
+msgid ""
+"Download the sample excel file, save it and add your products. You can add "
+"your Custom Columns. Upload it using the form below."
+msgstr ""
+
+#: wpeiePro_products.php:30
+msgid "IMAGE HANDLING"
+msgstr ""
+
+#: wpeiePro_products.php:33
+msgid "SIMPLE vs VARIABLE Products"
+msgstr ""
+
+#: wpeiePro_products.php:36
+msgid "UPDATE Info"
+msgstr ""
+
+#: wpeiePro_products.php:41
+msgid "Upload Images Via URL along with Product creation"
+msgstr ""
+
+#: wpeiePro_products.php:44
+msgid "Insert in a column the image URL address eg. example.com/image.png"
+msgstr ""
+
+#: wpeiePro_products.php:47
+msgid ""
+"Upload multiple images manually to your Media Library independently from "
+"product creation"
+msgstr ""
+
+#: wpeiePro_products.php:50
+msgid "Include the Name of an existing image in an Excel Column"
+msgstr ""
+
+#: wpeiePro_products.php:51
+msgid ""
+"Map the column of the data to Image Field and image will be attached to "
+"product."
+msgstr ""
+
+#: wpeiePro_products.php:53
+msgid ""
+"The 2nd approach is useful if you have the images stored locally in a folder "
+"and you have the list of image names along with product names."
+msgstr ""
+
+#: wpeiePro_products.php:58
+msgid "Importing Products means 3 options:"
+msgstr ""
+
+#: wpeiePro_products.php:62
+msgid ""
+"Simple Products with NO Atrributes  - 1 product (defined by unique title) "
+"per Excel row. Only one needed in the excel file."
+msgstr ""
+
+#: wpeiePro_products.php:65
+msgid ""
+"Simple Products with Atrributes (eg color) NO Variations - 1 Row per product "
+"Attribute (title of product is the same)  for Each Attribute. You need to "
+"click the checkbox"
+msgstr ""
+
+#: wpeiePro_products.php:65 wpeiePro_products.php:68
+msgid "Create only attributes"
+msgstr ""
+
+#: wpeiePro_products.php:65 wpeiePro_products.php:68
+msgid "while data mapping."
+msgstr ""
+
+#: wpeiePro_products.php:68
+msgid ""
+"Variable Products with Atrributes (eg color)  - 1 Row per product variation "
+"(title of product is the same)  for Each Variation. You "
+msgstr ""
+
+#: wpeiePro_products.php:68
+msgid "dont"
+msgstr ""
+
+#: wpeiePro_products.php:68
+msgid "click the checkbox "
+msgstr ""
+
+#: wpeiePro_products.php:74
+msgid "UPDATING VIA EXPORT SCREEN EXCEL"
+msgstr ""
+
+#: wpeiePro_products.php:77
+msgid ""
+"This method uses the ID given from export screen. It does not support "
+"updating image and gallery files, title and product attributes, but it is "
+msgstr ""
+
+#: wpeiePro_products.php:77
+msgid "much faster"
+msgstr ""
+
+#: wpeiePro_products.php:77
+msgid " for just updating prices, dimensions, etc."
+msgstr ""
+
+#: wpeiePro_products.php:81 wpeiePro_products.php:121
+msgid ""
+"Important Note: always save the generated export file in xlsx format to a "
+"new excel for import use."
+msgstr ""
+
+#: wpeiePro_products.php:85
+msgid "UPDATING WITH CUSTOM EXCEL"
+msgstr ""
+
+#: wpeiePro_products.php:88
+msgid ""
+"This method uses the TITLE field in your excel file - this means you need to "
+"exactly map the same title with all product attributes (if used for "
+"variations) used in any case. Image, gallery, new attributes can be created "
+"via this method. "
+msgstr ""
+
+#: wpeiePro_products.php:107 wpeiePro_products.php:282
+msgid "Upload"
+msgstr ""
+
+#: wpeiePro_products.php:118
+msgid "EXPORT PRODUCTS"
+msgstr ""
+
+#: wpeiePro_products.php:130
+msgid "DELETE PRODUCTS"
+msgstr ""
+
+#: wpeiePro_products.php:133
+msgid "Sample File for deleting Products. Upload it using the form below."
+msgstr ""
+
+#: wpeiePro_products.php:203
+msgid ""
+"DATA MAPPING: Drag and drop excel columns on the right to product properties "
+"on the left."
+msgstr ""
+
+#: wpeiePro_products.php:208
+msgid "EXCEL COLUMNS"
+msgstr ""
+
+#: wpeiePro_products.php:221
+msgid "PRODUCT FIELDS"
+msgstr ""
+
+#: wpeiePro_products.php:225
+msgid "Create Attributes (if Any) "
+msgstr ""
+
+#: wpeiePro_products.php:225
+msgid "ONLY,"
+msgstr ""
+
+#: wpeiePro_products.php:225
+msgid "Not Variations "
+msgstr ""
+
+#: wpeiePro_products.php:231
+msgid "ID (for update purpose only) "
+msgstr ""
+
+#: wpeiePro_products.php:235
+msgid "URL/SLUG "
+msgstr ""
+
+#: wpeiePro_products.php:249
+msgid "IMAGE "
+msgstr ""
+
+#: wpeiePro_products.php:253
+msgid "IMAGE GALLERY"
+msgstr ""
+
+#: wpeiePro_products.php:261
+msgid "PRODUCT TAXONOMIES - ATTRIBUTES"
+msgstr ""
+
+#: wpeiePro_products.php:291
+msgid "Invalid File:Please Upload Excel File"
+msgstr ""
+
+#: wpeiePro_products.php:304
+msgid "Select.."
+msgstr ""
+
+#: wpeiePro_products.php:326
+msgid "Filter & Fields to Show"
+msgstr ""
+
+#: wpeiePro_products.php:332
+msgid "Choose Taxonomy"
+msgstr ""
+
+#: wpeiePro_products.php:344
+msgid "Tax Terms"
+msgstr ""
+
+#: wpeiePro_products.php:353
+msgid "No terms on products for "
+msgstr ""
+
+#: wpeiePro_products.php:356
+msgid "Choose Terms.."
+msgstr ""
+
+#: wpeiePro_products.php:368
+msgid "Keywords"
+msgstr ""
+
+#: wpeiePro_products.php:371
+msgid "Search term"
+msgstr ""
+
+#: wpeiePro_products.php:376 wpeiePro_products.php:586
+msgid "SKU"
+msgstr ""
+
+#: wpeiePro_products.php:378
+msgid "Search by SKU"
+msgstr ""
+
+#: wpeiePro_products.php:384 wpeiePro_products.php:387
+msgid "Regular Price"
+msgstr ""
+
+#: wpeiePro_products.php:390
+msgid "Regular Price Selector"
+msgstr ""
+
+#: wpeiePro_products.php:405 wpeiePro_products.php:408
+msgid "Sale Price"
+msgstr ""
+
+#: wpeiePro_products.php:412
+msgid "Sale Price Selector"
+msgstr ""
+
+#: wpeiePro_products.php:428
+msgid "Limit Results"
+msgstr ""
+
+#: wpeiePro_products.php:431
+msgid "Number to display.."
+msgstr ""
+
+#: wpeiePro_products.php:433
+msgid "Start from.."
+msgstr ""
+
+#: wpeiePro_products.php:447
+msgid "TAXONOMIES TO SHOW"
+msgstr ""
+
+#: wpeiePro_products.php:469
+msgid "FIELDS TO SHOW"
+msgstr ""
+
+#: wpeiePro_products.php:492
+msgid "Search"
+msgstr ""
+
+#: wpeiePro_products.php:571
+msgid "Wait... Download is loading..."
+msgstr ""
+
+#: wpeiePro_products.php:586
+msgid "id"
+msgstr ""
+
+#: wpeiePro_products.php:586
+msgid "TITLE"
+msgstr ""
+
+#: wpeiePro_products.php:586
+msgid "DESCRIPTION"
+msgstr ""
+
+#: wpeiePro_products.php:586
+msgid "EXCERPT"
+msgstr ""
+
+#: wpeiePro_products.php:586
+msgid "VARIATION DESCRIPTION"
+msgstr ""
+
+#: wpeiePro_products.php:586
+msgid "REGULAR PRICE"
+msgstr ""
+
+#: wpeiePro_products.php:586
+msgid "SALE PRICE"
+msgstr ""
+
+#: wpeiePro_products.php:586
+msgid "WEIGHT"
+msgstr ""
+
+#: wpeiePro_products.php:586
+msgid "STOCK"
+msgstr ""
+
+#: wpeiePro_products.php:586
+msgid "STOCK STATUS"
+msgstr ""
+
+#: wpeiePro_products.php:586
+msgid "WIDTH"
+msgstr ""
+
+#: wpeiePro_products.php:586
+msgid "LENGTH"
+msgstr ""
+
+#: wpeiePro_products.php:586
+msgid "HEIGHT"
+msgstr ""
+
+#: wpeiePro_products.php:586
+msgid "DOWNLOADABLE"
+msgstr ""
+
+#: wpeiePro_products.php:586
+msgid "DOWNLOAD LIMIT"
+msgstr ""
+
+#: wpeiePro_products.php:586
+msgid "DOWNLOAD EXPIRY"
+msgstr ""
+
+#: wpeiePro_products.php:586
+msgid "VIRTUAL"
+msgstr ""
+
+#: wpeiePro_products.php:586
+msgid "PURCHASE NOTE"
+msgstr ""
+
+#: wpeiePro_products.php:586
+msgid "UPSELL IDS"
+msgstr ""
+
+#: wpeiePro_products.php:586
+msgid "CROSSSELL IDS"
+msgstr ""
+
+#: wpeiePro_products.php:586
+msgid "THUMBNAIL ID"
+msgstr ""
+
+#: wpeiePro_products.php:586
+msgid "PRODUCT IMAGE GALLERY"
+msgstr ""
+
+#: wpeiePro_products.php:599
+msgid "ID"
+msgstr ""
+
+#: wpeiePro_products.php:742
+msgid "For Sale price of"
+msgstr ""
+
+#: wpeiePro_products.php:742 wpeiePro_products.php:749
+#: wpeiePro_products.php:762 wpeiePro_products.php:770
+#: wpeiePro_products.php:781 wpeiePro_products.php:789
+msgid "you need numbers entered"
+msgstr ""
+
+#: wpeiePro_products.php:749
+msgid "For Regular price of"
+msgstr ""
+
+#: wpeiePro_products.php:762
+msgid "For Weight of"
+msgstr ""
+
+#: wpeiePro_products.php:770
+msgid "For Stock of"
+msgstr ""
+
+#: wpeiePro_products.php:781
+msgid "For Length of"
+msgstr ""
+
+#: wpeiePro_products.php:789
+msgid "For Width of"
+msgstr ""
+
+#: wpeiePro_products.php:865
+msgid "created"
+msgstr ""
+
+#: wpeiePro_products.php:932
+msgid "already exists. Updated"
+msgstr ""
+
+#: wpeiePro_products.php:1047 wpeiePro_products.php:1052
+msgid "Variation"
+msgstr ""
+
+#: wpeiePro_products.php:1047 wpeiePro_products.php:1052
+msgid " was inserted with ID "
+msgstr ""
+
+#: wpeiePro_products.php:1047 wpeiePro_products.php:1052
+msgid "as it didnt exist"
+msgstr ""
+
+#: wpeiePro_products.php:1061
+msgid "Variation that exists :"
+msgstr ""
+
+#: wpeiePro_products.php:1327
+msgid ""
+"already exists. Updated. NOTE THAT: You cannot update the title for existing "
+"products. You need to remove them first and re-import"
+msgstr ""
+
+#: wpeiePro_products.php:1425
+msgid "- JOB DONE!"
+msgstr ""
+
+#: wpeiePro_products.php:1425
+msgid "GO VIEW YOUR PRODUCTS!"
+msgstr ""
+
+#: wpeiePro_products.php:1428
+msgid "Please dont close this page... Your products are imported...."
+msgstr ""
+
+#: wpeiePro_products.php:1443
+msgid "Total Execution Time:"
+msgstr ""
+
+#: wpeiePro_products.php:1443
+msgid "Mins"
+msgstr ""
+
+#: wpeiePro_products.php:1707
+msgid "No Product Found"
+msgstr ""
