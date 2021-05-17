@@ -97,7 +97,7 @@ function wp_table_install(){
 		 
     //dbDelta($sql);
 	
-	$sql="CREATE TABLE IF NOT EXISTS wp_auto_post_sites ( 
+	/*$sql="CREATE TABLE IF NOT EXISTS wp_auto_post_sites ( 
          id bigint(20) unsigned NOT NULL AUTO_INCREMENT,
          site_name varchar(255) DEFAULT '' NOT NULL,
          server_url varchar(255) DEFAULT '' NOT NULL,
@@ -107,6 +107,8 @@ function wp_table_install(){
 		 site_status int(11) DEFAULT '0' NOT NULL,
          added_at timestamp NOT NULL,
          PRIMARY KEY (id)) $charset_collate;";
+		 
+		 */
 		 
     dbDelta($sql);
 
